@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Button } from './Button';
 
 export default {
@@ -32,5 +31,11 @@ Large.args = {
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
+  label: 'Button',
+};
+
+export const Full = Template.bind({});
+Full.args = {
+  size: 'full',
   label: 'Button',
 };
