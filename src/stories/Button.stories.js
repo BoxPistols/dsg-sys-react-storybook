@@ -9,33 +9,33 @@ export default {
   },
 };
 
-const Template = (args) => <Button {...args} />;
+const UI = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
+export const Primary = UI.bind({});
 Primary.args = {
   primary: true,
   label: 'Button',
 };
 
-export const Secondary = Template.bind({});
+export const Secondary = UI.bind({});
 Secondary.args = {
   label: 'Button',
 };
 
-export const Large = Template.bind({});
+export const Large = UI.bind({});
 Large.args = {
   size: 'large',
   label: 'Button',
 };
 
-export const Small = Template.bind({});
+export const Small = UI.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
 };
 
-export const Full = Template.bind({});
+export const Full = UI.bind({});
 Full.args = {
-  size: 'full',
+size: 'full',
   label: 'Button',
 };
